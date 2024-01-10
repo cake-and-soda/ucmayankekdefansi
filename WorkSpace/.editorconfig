@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS2002: 'C:\Users\Ogrenci11\Desktop\ucmayankekdefansi\WorkSpace\WorkSpace\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs' kaynak dosyası birden çok kez belirtildi
+dotnet_diagnostic.CS2002.severity = none

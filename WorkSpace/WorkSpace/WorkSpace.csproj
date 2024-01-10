@@ -157,6 +157,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\anasayfa.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -166,7 +167,19 @@
     <Content Include="obj\Debug\build.force" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\WorkSpace.csproj.AssemblyReference.cache" />
+    <Content Include="Media\Fotograflar\Anasayfa\allday-2-urun-100-tl1702356759-800.webp" />
+    <Content Include="Media\Fotograflar\Anasayfa\allday-casual1704312262-800.webp" />
+    <Content Include="Media\Fotograflar\Anasayfa\allday-elegant1704312315-800.webp" />
+    <Content Include="Media\Fotograflar\Anasayfa\allday-kurtarici-parcalar1704312507-800.webp" />
+    <Content Include="Media\Fotograflar\Anasayfa\allday-sal-kampanyasi1703742837-800.webp" />
+    <Content Include="Media\Fotograflar\Anasayfa\allday-yeni-sezon-20231704312177-800.webp" />
+    <Content Include="Media\Fotograflar\Anasayfa\allday-yeni-sezon-sal-14711704312464-800.webp" />
+    <Content Include="Media\Fotograflar\Anasayfa\allday-young1704312370-800.webp" />
+    <Content Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\anasayfa.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -186,8 +199,6 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -199,6 +210,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Media\Fotograflar\Urunler\" />
     <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
