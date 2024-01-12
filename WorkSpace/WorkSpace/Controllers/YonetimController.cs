@@ -25,10 +25,10 @@ namespace WorkSpace.Controllers
             vt_islemleri.SaveChanges();
             return View("Ekle");
         }
-        public ActionResult Guncelle(int Urun_ID)
+        public ActionResult Guncelle()
         {
 
-            return View(Urun_ID);
+            return View();
         }
         public ActionResult Sil()
         {
