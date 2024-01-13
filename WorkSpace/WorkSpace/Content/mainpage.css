@@ -1,9 +1,16 @@
-body,
 html {
   height: 100%;
   background: #110101;
   font-family: 'Roboto', sans-serif;
   overflow: hidden;
+}
+
+#navbar {
+    position:absolute;
+    z-index:0;
+    min-width:100%;
+    min-height:8%;
+    background:red;
 }
 
 .slideshow {

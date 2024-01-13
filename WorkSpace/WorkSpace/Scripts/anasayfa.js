@@ -55,11 +55,11 @@ $('.slideshow-left').slick({
     $('.slideshow-right .slick-track').css({'transform': 'matrix(1, 0, 0, 1, 0, ' + (rightTracking - diffTracking) + ')'});
   }
 }).on('mouseleave touchend mouseup', function(){
-  dragging = false;
+  dragging = true;
 });
 
 $('.slideshow-right .slider').slick({
-  swipe: false,
+  swipe: true,
   vertical: true,
   arrows: false,
   infinite: true,
