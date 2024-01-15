@@ -10,11 +10,10 @@ namespace WorkSpace.Controllers
     public class YonetimController : Controller
     {
         VtContex vt_islemleri = new VtContex();
-       
         // GET: Yonetim
         public ActionResult Liste()
         {
-           
+            vt_Listeler.UrunList = vt_islemleri.Urun.ToList();
             return View();
         }
         public ActionResult Ekle()
@@ -27,7 +26,7 @@ namespace WorkSpace.Controllers
             vt_islemleri.SaveChanges();
             return View("Ekle");
         }
-        public ActionResult Guncelle()
+        public ActionResult Guncelle(int Id)
         {
 
             return View();

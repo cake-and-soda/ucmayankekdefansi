@@ -4,6 +4,7 @@
     ViewBag.Title = "Liste";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
 <h2>Liste</h2>
 
 <table class="table">
@@ -18,15 +19,15 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in List<Urun_Model>())
+        @foreach (var i in vt_Listeler.UrunList)
         {
             <tr>
-                <th scope="row">@Html.DisplayFor(m => m.Urun_Id)</th>
-                <td>@Html.DisplayFor(m => m.Ad)</td>
-                <td>@Html.DisplayFor(m => m.Kod)</td>
-                <td>@Html.DisplayFor(m => m.Detay).ToString().Substring(0, 10)</td>
-                <td>@Html.ActionLink("Güncelle", "Guncelle", "Yonetim", new { Id = Model.Urun_Id })</td>
-                <td>@Html.ActionLink("Sil", "Sil", "Yonetim", new { Id = Model.Urun_Id })</td>
+                <th scope="row">@i.Urun_Id</th>
+                <td>@i.Ad</td>
+                <td>@i.Kod</td>
+                <td>@i.Detay</td>
+                <td>@Html.ActionLink("Güncelle", "Guncelle", "Yonetim", new { Id = 0 })</td>
+                <td>@Html.ActionLink("Sil", "Sil", "Yonetim")</td>
             </tr>
         }
     </tbody>
