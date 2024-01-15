@@ -1,8 +1,34 @@
-﻿
+﻿@using WorkSpace.Models
+@model Urun_Model
 @{
     ViewBag.Title = "Liste";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <h2>Liste</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">@Html.DisplayNameFor(m => m.Urun_Id)</th>
+            <th scope="col">@Html.DisplayNameFor(m => m.Ad)</th>
+            <th scope="col">@Html.DisplayNameFor(m => m.Kod)</th>
+            <th scope="col">@Html.DisplayNameFor(m => m.Detay)</th>
+            <th scope="col">Güncelle</th>
+            <th scope="col">Kaldır</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in List<Urun_Model>())
+        {
+            <tr>
+                <th scope="row">@Html.DisplayFor(m => m.Urun_Id)</th>
+                <td>@Html.DisplayFor(m => m.Ad)</td>
+                <td>@Html.DisplayFor(m => m.Kod)</td>
+                <td>@Html.DisplayFor(m => m.Detay).ToString().Substring(0, 10)</td>
+                <td>@Html.ActionLink("Güncelle", "Guncelle", "Yonetim", new { Id = Model.Urun_Id })</td>
+                <td>@Html.ActionLink("Sil", "Sil", "Yonetim", new { Id = Model.Urun_Id })</td>
+            </tr>
+        }
+    </tbody>
+</table>
 

@@ -10,9 +10,11 @@ namespace WorkSpace.Controllers
     public class YonetimController : Controller
     {
         VtContex vt_islemleri = new VtContex();
+       
         // GET: Yonetim
         public ActionResult Liste()
         {
+           
             return View();
         }
         public ActionResult Ekle()
