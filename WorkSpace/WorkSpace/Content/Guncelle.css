@@ -1,0 +1,22 @@
+﻿.denge {
+    width: 100%;
+    height: auto;
+    
+}
+
+.satir {
+    height: 50px;
+    margin: 0px auto;
+    width: auto;
+    display: table;
+}
+
+.sutun {
+    width: 50px;
+    height: 50px;
+    margin:2px 2px;
+    float:left;
+    text-align:center;
+    border:1px solid black;
+    border-radius:10px;
+}
