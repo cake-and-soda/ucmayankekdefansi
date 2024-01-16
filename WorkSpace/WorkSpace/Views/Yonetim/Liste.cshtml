@@ -1,10 +1,6 @@
 ﻿@using WorkSpace.Models
-<<<<<<< HEAD
 @model List<Urun_Model>
 
-=======
-@model Urun_Model
->>>>>>> 26f192c6c91999379d43c22ed098af714040762d
 @{
     ViewBag.Title = "Liste";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -15,38 +11,23 @@
 <table class="table">
     <thead>
         <tr>
-<<<<<<< HEAD
             <th scope="col">@Html.DisplayNameFor(m => m[0].Urun_Id)</th>
             <th scope="col">@Html.DisplayNameFor(m => m[0].Ad)</th>
             <th scope="col">@Html.DisplayNameFor(m => m[0].Kod)</th>
             <th scope="col">@Html.DisplayNameFor(m => m[0].Detay)</th>
-=======
-            <th scope="col">@Html.DisplayNameFor(m => m.Urun_Id)</th>
-            <th scope="col">@Html.DisplayNameFor(m => m.Ad)</th>
-            <th scope="col">@Html.DisplayNameFor(m => m.Kod)</th>
-            <th scope="col">@Html.DisplayNameFor(m => m.Detay)</th>
->>>>>>> 26f192c6c91999379d43c22ed098af714040762d
             <th scope="col">Güncelle</th>
             <th scope="col">Kaldır</th>
         </tr>
     </thead>
     <tbody>
-<<<<<<< HEAD
         @foreach (var i in Model)
-=======
-        @foreach (var i in vt_Listeler.UrunList)
->>>>>>> 26f192c6c91999379d43c22ed098af714040762d
         {
             <tr>
                 <th scope="row">@i.Urun_Id</th>
                 <td>@i.Ad</td>
                 <td>@i.Kod</td>
                 <td>@i.Detay</td>
-<<<<<<< HEAD
                 <td>@Html.ActionLink("Güncelle", "Guncelle", "Yonetim", new { Id = i.Urun_Id })</td>
-=======
-                <td>@Html.ActionLink("Güncelle", "Guncelle", "Yonetim", new { Id = 0 })</td>
->>>>>>> 26f192c6c91999379d43c22ed098af714040762d
                 <td>@Html.ActionLink("Sil", "Sil", "Yonetim")</td>
             </tr>
         }

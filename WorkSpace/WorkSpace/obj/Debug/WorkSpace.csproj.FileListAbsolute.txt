@@ -230,7 +230,6 @@ C:\Users\Admin\Documents\GitHub\ucmayankekdefansi\WorkSpace\WorkSpace\obj\Debug\
 C:\Users\Admin\Documents\GitHub\ucmayankekdefansi\WorkSpace\WorkSpace\obj\Debug\WorkSpace.csproj.CopyComplete
 C:\Users\Admin\Documents\GitHub\ucmayankekdefansi\WorkSpace\WorkSpace\obj\Debug\WorkSpace.dll
 C:\Users\Admin\Documents\GitHub\ucmayankekdefansi\WorkSpace\WorkSpace\obj\Debug\WorkSpace.pdb
-<<<<<<< HEAD
 C:\Users\User\Desktop\ucmayankekdefansi-Omer\WorkSpace\WorkSpace\bin\WorkSpace.dll.config
 C:\Users\User\Desktop\ucmayankekdefansi-Omer\WorkSpace\WorkSpace\bin\WorkSpace.dll
 C:\Users\User\Desktop\ucmayankekdefansi-Omer\WorkSpace\WorkSpace\bin\WorkSpace.pdb
@@ -289,5 +288,3 @@ C:\Users\User\Desktop\ucmayankekdefansi-Omer\WorkSpace\WorkSpace\obj\Debug\WorkS
 C:\Users\User\Desktop\ucmayankekdefansi-Omer\WorkSpace\WorkSpace\obj\Debug\WorkSpace.csproj.CopyComplete
 C:\Users\User\Desktop\ucmayankekdefansi-Omer\WorkSpace\WorkSpace\obj\Debug\WorkSpace.dll
 C:\Users\User\Desktop\ucmayankekdefansi-Omer\WorkSpace\WorkSpace\obj\Debug\WorkSpace.pdb
-=======
->>>>>>> 26f192c6c91999379d43c22ed098af714040762d
