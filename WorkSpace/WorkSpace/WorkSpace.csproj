@@ -134,6 +134,7 @@
     </Compile>
     <Compile Include="Models\VtContext.cs" />
     <Compile Include="Models\Urun_Model.cs" />
+    <Compile Include="Models\vt_Listeler.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

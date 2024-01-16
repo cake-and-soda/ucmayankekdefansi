@@ -13,7 +13,7 @@ namespace WorkSpace.Controllers
         // GET: Yonetim
         public ActionResult Liste()
         {
-            return View();
+            return View(vt_islemleri.Urun.ToList());
         }
         public ActionResult Ekle()
         {
@@ -25,10 +25,10 @@ namespace WorkSpace.Controllers
             vt_islemleri.SaveChanges();
             return View("Ekle");
         }
-        public ActionResult Guncelle()
+        public ActionResult Guncelle(int Id)
         {
 
-            return View();
+            return View(Id);
         }
         public ActionResult Sil()
         {

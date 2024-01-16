@@ -1,8 +1,36 @@
-﻿
+﻿@using WorkSpace.Models
+@model List<Urun_Model>
+
 @{
     ViewBag.Title = "Liste";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>Liste</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">@Html.DisplayNameFor(m => m[0].Urun_Id)</th>
+            <th scope="col">@Html.DisplayNameFor(m => m[0].Ad)</th>
+            <th scope="col">@Html.DisplayNameFor(m => m[0].Kod)</th>
+            <th scope="col">@Html.DisplayNameFor(m => m[0].Detay)</th>
+            <th scope="col">Güncelle</th>
+            <th scope="col">Kaldır</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <th scope="row">@i.Urun_Id</th>
+                <td>@i.Ad</td>
+                <td>@i.Kod</td>
+                <td>@i.Detay</td>
+                <td>@Html.ActionLink("Güncelle", "Guncelle", "Yonetim", new { Id = i.Urun_Id })</td>
+                <td>@Html.ActionLink("Sil", "Sil", "Yonetim")</td>
+            </tr>
+        }
+    </tbody>
+</table>
 
