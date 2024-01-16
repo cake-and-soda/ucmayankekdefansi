@@ -13,7 +13,12 @@ namespace WorkSpace.Controllers
         // GET: Yonetim
         public ActionResult Liste()
         {
+<<<<<<< HEAD
             return View(vt_islemleri.Urun.ToList());
+=======
+            vt_Listeler.UrunList = vt_islemleri.Urun.ToList();
+            return View();
+>>>>>>> 26f192c6c91999379d43c22ed098af714040762d
         }
         public ActionResult Ekle()
         {
